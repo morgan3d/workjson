@@ -36,6 +36,9 @@ JSON parser to simplify porting and minimize code size.
 The current version does not support unescaped double quotes within
 single-quoted or multiline strings.
 
+You can support WorkJSON, Markdeep, and my other open source projects by
+[sponsoring](https://github.com/sponsors/morgan3d) my github account.
+
 
 # Other Libraries
 
@@ -53,3 +56,9 @@ WorkJSON is compatible with YAML. It is generally a better format than
 JSON, but many projects, I choose the lighter weight and more widely
 supported JSON ecosystem, using WorkJSON to remove the rough edges of
 JSON.
+
+# License
+
+WorkJSON is by [Morgan McGuire](https://casual-effects.com)
+([@CasualEffects](https://twitter.com/CasualEffects)) and is available 
+under the MIT license.

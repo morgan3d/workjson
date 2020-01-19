@@ -11,8 +11,8 @@
   - Hexadecimal numbers
   - Optional unquoted object keys using [A-Za-z_0-9]+ characters only
 
-  See also ../console/workjson.js for the JavaScript version.
-  workjson.py is a port of workjson.js that tracks that version
+  See also https://github.com/morgan3d/workjson for the JavaScript version.
+  workjson.py is a port of WorkJSON.js that tracks that version
   and maintains the same structure to simplify patching.
 
   Just use workjson.dumps(obj) and workjson.loads(str) in place of

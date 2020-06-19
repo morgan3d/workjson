@@ -11,8 +11,8 @@
   - Hexadecimal numbers
   - Optional unquoted object keys using [A-Za-z_0-9]+ characters only
 
-  See also https://github.com/morgan3d/workjson for the JavaScript version.
-  workjson.py is a port of WorkJSON.js that tracks that version
+  See also ../console/workjson.js for the JavaScript version.
+  workjson.py is a port of workjson.js that tracks that version
   and maintains the same structure to simplify patching.
 
   Just use workjson.dumps(obj) and workjson.loads(str) in place of
@@ -100,7 +100,8 @@ def dumps(obj, skipkeys=False, ensure_ascii=True, allow_nan=True,
           cls=None, indent=None, separators=None, default=None, sort_keys=False):
    
    return json.dumps(obj, skipkeys=skipkeys, allow_nan=allow_nan, ensure_ascii=ensure_ascii,
-                     separators=separators, default=default, sort_keys=sort_keys)
+                     separators=separators, default=default, sort_keys=sort_keys,
+                     cls=cls, indent=indent)
 
 
 """ s must be a string, unlike json.loads """
